@@ -74,4 +74,10 @@ Here when we open up the new query window this will be recongnized and will exec
 
 ---
 
-###### ORDER BY
+###### 100 ORDER BY
+
+DESC
+
+ASC - The default value
+
+---
