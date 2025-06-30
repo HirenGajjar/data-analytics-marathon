@@ -1,4 +1,4 @@
-###### 96
+##### 96
 
 There are two ways to give an alias to a column in MSSM Studio.
 
@@ -26,7 +26,7 @@ DISTINCT
 
 ---
 
-###### Temporary Tables
+###### 98 Temporary Tables
 
 INTO keyword
 
@@ -44,6 +44,8 @@ FROM [dbo].[Employees];
 
 Here the name can be simply anything for temparary table - use of # is a syntax.
 
+Any table with single # will not be recognized in new query window.
+
 Secondly we wrote [dbo].[Employees] - that is one way to do it in MSSM. But we dont have to. We can simply use the Employees
 
 It will be usefull when we have too many dbs and tables then we can do something similar.
@@ -55,3 +57,21 @@ SELECT *
 INTO #temp_2
 FROM Employees;
 ```
+
+We can use ## to create temp tables like
+
+```
+SELECT *
+INTO ##temp_emp_records
+FROM EmployeeRecords;
+```
+
+Here when we open up the new query window this will be recongnized and will executed, it will also be recongized in other instances as well as the original instace is oepn and running (basically session like scenario.)
+
+---
+
+###### 99 WHERE
+
+---
+
+###### ORDER BY
