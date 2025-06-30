@@ -1,4 +1,4 @@
-##### 96
+###### 96
 
 There are two ways to give an alias to a column in MSSM Studio.
 
@@ -93,3 +93,17 @@ AND Department = 'HR';
 ```
 
 Now here we will have all the rows that has ID = 1 + (all the records that has ID 4 AND ) both of thses has to be a true.
+
+---
+
+###### 102 NOT BETWEEN IN
+
+```sql
+WHERE Salary != 50000
+
+-- Same
+
+WHERE NOT Salary = 50000
+```
+
+In Between both of the values are inclusive. But we cannot do Salary BETWEEN 10000 OR 30000; That is invalid.
