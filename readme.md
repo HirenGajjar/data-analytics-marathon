@@ -81,3 +81,15 @@ DESC
 ASC - The default value
 
 ---
+
+###### 101 AND OR
+
+```sql
+SELECT *
+FROM EmployeeRecords
+WHERE EmployeeID = 1
+OR EmployeeID = 4
+AND Department = 'HR';
+```
+
+Now here we will have all the rows that has ID = 1 + (all the records that has ID 4 AND ) both of thses has to be a true.
