@@ -107,3 +107,9 @@ WHERE NOT Salary = 50000
 ```
 
 In Between both of the values are inclusive. But we cannot do Salary BETWEEN 10000 OR 30000; That is invalid.
+
+---
+
+###### INSERT INTO
+
+⚠⚠
